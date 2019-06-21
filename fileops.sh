@@ -1,0 +1,8 @@
+echo "-d file     file存在且是目录"
+echo "-e file     file存在"
+echo "-f file     file存在且是普通文件"
+echo "-r file     用户有file的读权限"
+echo "-s file     file存在且不为空"
+echo "-w file     用户有file的写权限"
+echo "file1 -nt file2 file1比file2新"
+echo "file1 -ot file2 file1比file2旧"
